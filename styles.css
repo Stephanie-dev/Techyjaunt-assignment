@@ -25,12 +25,23 @@
   h2{
     font-size: 38px !important;
   }
+
+  textarea{
+    width: 100%;
+  }
   input {
     margin-bottom: 20px;
     width: 100%;
     padding: 10px;
   }
 
+  #male{
+    background-color: rgb(60, 110, 247);
+  }
+
+  #female{
+    background-color: pink;
+  }
   hr{
     margin: 0 60px;
   }
