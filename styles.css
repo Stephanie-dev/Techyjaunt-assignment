@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  header {
+    padding: 10px 30px;
+    background-color: #f7f7f7;
+  }
+
+  a{
+    text-decoration: underline;
+    color: blue;
+  }
+
+  li {
+    list-style: none;
+  }
+  
+  h2{
+    font-size: 38px !important;
+  }
+  input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  hr{
+    margin: 0 60px;
+  }
+  footer{
+    padding: 90px 50px;
+    background-color: #f0ecec;
+  }
+  
+  .flex1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .header-left img {
+    margin-left: 20px;
+  }
+  
+  .header-right {
+    padding-top: 10px;
+    font-size: 17px;
+  }
+  
+  .header-right li, #About li {
+    float: left;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid rgb(51, 10, 233);
+    margin-right: 20px;
+    border-radius: 12px;
+  }
+
+  #About ul{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .serv{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(51, 10, 233);
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .serv:hover{
+    background-color: rgb(21, 4, 100);
+    color: white;
+  }
+
+  .header-right li:hover {
+    background-color: rgb(21, 4, 100);
+    color: white;
+  }
+  
+  .heading {
+    text-align: center;
+    padding: 100px 50px;
+    background-color: #f7f7f7;
+  }
+  
+  .heading h1 {
+    font-size: 70px;
+  }
+  
+  .heading p {
+    font-size: 40px;
+  }
+  
+  #Intro,
+  #Project {
+    text-align: center;
+    padding: 0px 50px;
+  }
+  
+  #About{
+    text-align: center;
+    padding: 30px 50px;
+  }
+
+  #Skills{
+    text-align: center;
+    padding: 80px 50px; 
+  }
+
+  #Skills p{
+    font-size: 20px;
+  }
+
+  #Skills ul {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  #Skills li {
+    padding: 20px;
+    margin-right: 25px;
+    box-shadow: 0 1px 16px rgba(1, 30, 70, 0.12), 0 1px 16px rgba(0, 0, 0, 0.24);
+    border-radius: 9px;
+    margin-top: 20px;
+    background-color: white;
+  }
+
+  .container li:hover{
+    background-color: rgb(21, 4, 100);
+    color: white !important;
+  }
+  #About h2{
+    font-size: 38px;
+    margin-bottom: 90px;
+  }
+
+  #Intro p,
+  #About p,
+  #Contact p {
+    margin: 15px 0;
+    font-size: 20px;
+  }
+  
+  #Intro {
+    background-color: #f0f0f0; /* Light gray */
+  }
+
+  #About {
+    background-color: #f7f7f7;
+  }
+  
+
+  #Contact {
+    background-color:#f7f7f7;/* Very light gray */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container1, .container {
+    padding: 60px 40px;
+  }
+  
+  .container1 h2,
+  .container1 p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .container1 p{
+    font-size: 20px;
+  }
+  
+  .box {
+    box-sizing: border-box;
+    border: none;
+    width: 40%;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 9px;
+    margin-right: 20px;
+    margin-bottom: 4px;
+    background-color: white;
+    box-shadow: 0 1px 16px rgba(1, 30, 70, 0.12), 0 1px 16px rgba(0, 0, 0, 0.24);
+    margin-top: 50px;
+  }
+  
+  .box:hover {
+    box-shadow: 0 10px 50px rgba(1, 2, 51, 0.5), 0 10px 50px rgba(0, 0, 0, 0.35);
+  }
+  
+  .box img {
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+  }
+  
+  .box h2 {
+    font-weight: normal;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 27px;
+    text-align: center;
+    color: hsl(250, 15%, 16%);
+  }
+  
+  .box p {
+    color: hsl(249, 10%, 26%);
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 11px 20px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background-color: rgb(21, 4, 100);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  
+  .btn:hover {
+    border: 2px solid rgb(21, 4, 100);
+    cursor: pointer;
+    background-color: white;
+    color: rgb(21, 4, 100);
+  }
+  
+  .flex0 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: center;
+  }
+  
+  .container2 {
+    padding: 100px 20px;
+    width: 50%;
+  }
+  .container2 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn1 {
+    padding: 11px 20px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background-color: rgb(21, 4, 100);
+    color: white;
+    font-size: 17px;
+    width: 100%;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  
+  .btn1:hover {
+    border: 2px solid rgb(21, 4, 100);
+    cursor: pointer;
+    background-color: white;
+    color: rgb(21, 4, 100);
+  }
+  
+  @media only screen and (min-width: 375px) and (max-width: 540px) {
+    .heading h1 {
+      font-size: 50px;
+      text-align: center;
+    }
+  
+    .heading p {
+      font-size: 30px;
+    }
+    .box {
+      box-sizing: border-box;
+      border: none;
+      width: 100%;
+      padding-bottom: 20px;
+      text-align: center;
+      border-radius: 9px;
+      margin-right: 40px;
+      margin-bottom: 4px;
+      box-shadow: 0 1px 16px rgba(1, 30, 70, 0.12), 0 1px 16px rgba(0, 0, 0, 0.24);
+      margin-top: 50px;
+    }
+  
+    .box h2 {
+      font-size: 20px;
+      padding: 10px;
+    }
+  
+    .box p {
+      padding: 10px;
+    }
+  
+    .btn {
+      margin: 20px;
+    }
+    .box img {
+      height: auto;
+      width: 100%;
+      border-top-left-radius: 9px;
+      border-top-right-radius: 9px;
+    }
+  
+    .flex0 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 50%;
+      justify-content: center;
+      margin-left: auto;
+    }
+  
+    .container1 {
+      padding: 5px 10px 5px 30px;
+    }
+  
+    .container2 {
+      padding: 20px 40px;
+      width: 100%;
+    }
+  }
